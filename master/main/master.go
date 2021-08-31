@@ -61,6 +61,8 @@ func main() {
 		goto ERR
 	}
 
+	fmt.Println("启动成功>>>>>>")
+
 	// 正常退出
 	for {
 		time.Sleep(1 * time.Second)
